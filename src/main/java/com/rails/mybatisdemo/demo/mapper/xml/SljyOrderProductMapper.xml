@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.rails.mybatisdemo.demo.mapper.SljyOrderProductMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.rails.mybatisdemo.demo.model.entity.SljyOrderProduct">
+        <id column="order_id" property="orderId" />
+        <result column="order_code" property="orderCode" />
+        <result column="order_batch" property="orderBatch" />
+        <result column="order_day" property="orderDay" />
+        <result column="order_date" property="orderDate" />
+        <result column="service_date" property="serviceDate" />
+        <result column="service_time" property="serviceTime" />
+        <result column="company_id" property="companyId" />
+        <result column="company_abbreviation" property="companyAbbreviation" />
+        <result column="user_id" property="userId" />
+        <result column="user_name" property="userName" />
+        <result column="mobile" property="mobile" />
+        <result column="sequence_no" property="sequenceNo" />
+        <result column="ticket_no" property="ticketNo" />
+        <result column="sales_channels" property="salesChannels" />
+        <result column="statistics_date" property="statisticsDate" />
+        <result column="bureau_code" property="bureauCode" />
+        <result column="sell_station" property="sellStation" />
+        <result column="office_no" property="officeNo" />
+        <result column="window_no" property="windowNo" />
+        <result column="day_night" property="dayNight" />
+        <result column="group_no" property="groupNo" />
+        <result column="operator_id" property="operatorId" />
+        <result column="train_setname" property="trainSetname" />
+        <result column="start_train_date" property="startTrainDate" />
+        <result column="start_train_time" property="startTrainTime" />
+        <result column="train_code" property="trainCode" />
+        <result column="train_no" property="trainNo" />
+        <result column="train_date" property="trainDate" />
+        <result column="start_time" property="startTime" />
+        <result column="board_train_code" property="boardTrainCode" />
+        <result column="from_tele_code" property="fromTeleCode" />
+        <result column="from_station_name" property="fromStationName" />
+        <result column="to_tele_code" property="toTeleCode" />
+        <result column="to_station_name" property="toStationName" />
+        <result column="coach_no" property="coachNo" />
+        <result column="seat_no" property="seatNo" />
+        <result column="seat_type_code" property="seatTypeCode" />
+        <result column="passenger_name" property="passengerName" />
+        <result column="passenger_phone" property="passengerPhone" />
+        <result column="order_pay_method" property="orderPayMethod" />
+        <result column="order_pay_type" property="orderPayType" />
+        <result column="payment_info_id" property="paymentInfoId" />
+        <result column="natural_day" property="naturalDay" />
+        <result column="destination_type" property="destinationType" />
+        <result column="destination_code" property="destinationCode" />
+        <result column="destination_name" property="destinationName" />
+        <result column="deliver_mode" property="deliverMode" />
+        <result column="order_state" property="orderState" />
+        <result column="return_reason" property="returnReason" />
+        <result column="valid_flag" property="validFlag" />
+        <result column="product_total_price" property="productTotalPrice" />
+        <result column="freight" property="freight" />
+        <result column="order_total_price" property="orderTotalPrice" />
+        <result column="bestowed_sum_score" property="bestowedSumScore" />
+        <result column="comments_info1" property="commentsInfo1" />
+        <result column="comments_info2" property="commentsInfo2" />
+        <result column="pay_out_time" property="payOutTime" />
+        <result column="orders_out_time" property="ordersOutTime" />
+        <result column="auto_confirm_time" property="autoConfirmTime" />
+        <result column="invoice_flag" property="invoiceFlag" />
+        <result column="invoice_state" property="invoiceState" />
+        <result column="drawee_name" property="draweeName" />
+        <result column="invoice_email" property="invoiceEmail" />
+        <result column="exception_flag" property="exceptionFlag" />
+        <result column="evaluate_flag" property="evaluateFlag" />
+        <result column="complain_flag" property="complainFlag" />
+        <result column="made_flag" property="madeFlag" />
+        <result column="print_time" property="printTime" />
+        <result column="last_modify_time" property="lastModifyTime" />
+        <result column="synchronous_flag" property="synchronousFlag" />
+        <result column="synchronous_time" property="synchronousTime" />
+        <result column="transmit_flag" property="transmitFlag" />
+        <result column="transmit_time" property="transmitTime" />
+        <result column="flag1" property="flag1" />
+        <result column="flag2" property="flag2" />
+        <result column="flag3" property="flag3" />
+        <result column="flag4" property="flag4" />
+        <result column="flag5" property="flag5" />
+        <result column="amount1" property="amount1" />
+        <result column="amount2" property="amount2" />
+        <result column="amount3" property="amount3" />
+        <result column="amount4" property="amount4" />
+        <result column="amount5" property="amount5" />
+    </resultMap>
+
+</mapper>
