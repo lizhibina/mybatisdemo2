@@ -29,10 +29,10 @@ public class CreateOrderForm {
        /*销售渠道*/
        private String salesChannels;
 
+
        @NotBlank
        /**
         * 用户名
         */
        private String userName;
-
 }
